@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nadav Gefen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/nadav-gefen/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+            <a href="https://dribbble.com/Nadav87" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                <svg viewBox="0 0 512 512"><path d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-3.952-10.295-8.314-20.725-13.013-31.14 62.671-28.188 83.275-80.463 85.545-86.376 9.613 11.25 18.257 23.232 26.255 35.889.31-.22-.39.11-1.12-3.51zm-185.74-90.81c63.486 0 120.457 24.636 163.298 64.954-2.146 5.485-21.782 55.454-81.82 81.82-15.176-26.757-32.067-52.053-50.536-75.694-2.164-8.89-13.563-54.348-73.056-69.58 13.535-1.002 27.42-1.5 42.114-1.5zm-86.49 19.98c56.883 14.775 66.822 56.65 68.32 64.12 18.261 23.332 34.613 48.243 49.387 74.453-62.894 17.513-132.863 15.682-140.245 15.424-21.036-70.612 1.32-137.601 22.538-154zM32 256c0-23.75 3.65-46.68 10.28-68.32 7.74.3 75.05 2.15 140.75-16.14 26.98 56.24 49.1 113.88 66.21 169.51-50.08 23.5-115.15 28.52-132.22 29.54C62.9 334.46 32 298.63 32 256zm224 224c-53.81 0-103.11-19.16-141.83-51.04 17.47-1.13 87.21-6.72 139.77-31.42 16.51 51.54 30.68 103.1 42.17 153.94-13.03 1.61-26.4 2.52-40.11 2.52zm111.41-19.19c-11.44-48.4-24.97-97.66-40.77-147.01 54.12-14.76 109.43-11.45 116.81-10.91-9.61 68.08-46.99 125.72-97.52 159.2z"/></svg>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=n.gefen87@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <svg viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            </a>
+        </div>
+        <div class="logo"><strong>Nadav Gefen</strong> | UI/UX Designer</div>
+    </div>
+    
+    <nav>
+        <a onclick="scrollToSection('hero')">Home</a>
+        <a onclick="scrollToSection('projects-grid')">Projects</a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <div class="hero-text">
+        <h1>Nadav Gefen</h1>
+        <h2>UI/UX Designer</h2>
+        <br>
+        <p>My name is Nadav Gefen, UI/UX Designer.</p>
+        <p>I create intuitive and visually appealing digital experiences.</p>
+        <p>Let's build something great together.</p>
+    </div>
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Nadav Gefen">
+    </div>
+</section>
+
+<section id="projects-grid" class="case-studies">
+    <h2>Case Studies</h2>
+    <div class="grid">
+        <div class="card" onclick="scrollToSection('proj1')">
+            <img src="images/Uxcelerate1.jpg" alt="UXcelerate Cover">
+            <div class="card-title">UXcelerate</div>
+            <div class="overlay">
+                <span class="card-category">Product</span>
+            </div>
+        </div>
+        <div class="card" onclick="scrollToSection('proj2')">
+            <img src="images/vitto1.jpg" alt="Vitto.Ai Cover">
+            <div class="card-title">Vitto.Ai</div>
+            <div class="overlay">
+                <span class="card-category">Product</span>
+            </div>
+        </div>
+        <div class="card" onclick="scrollToSection('proj3')">
+            <img src="images/GoodJob1.jpg" alt="Great Job Cover">
+            <div class="card-title">Great Job</div>
+            <div class="overlay">
+                <span class="card-category">Landing Page</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proj1" class="project-detail">
+    
+    <h2 class="main-project-title">UXcelerate</h2>
+    
+    <div class="project-block">
+        <h3 class="lato-title">Prototype</h3>
+        <div class="project-media-container">
+            <video controls autoplay loop muted>
+                <source src="images/prototype.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">My Role</h3>
+        <div class="project-media-container">
+            <img src="images/1. my role.png" alt="My Role">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Problem Solution</h3>
+        <div class="project-media-container">
+            <img src="images/2. problem-solution X1.875.png" alt="Problem Solution">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Main Research Conclusion</h3>
+        <div class="project-media-container">
+            <img src="images/3. Main research conclusion X1.875.png" alt="Main Research Conclusion">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">User Flow</h3>
+        <div class="project-media-container">
+            <img src="images/4. user flow1 X1.875.png" alt="User Flow">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Story Board</h3>
+        <div class="project-media-container">
+            <img src="images/5. story board X3.125.png" alt="Story Board">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Home Screen</h3>
+        <div class="project-media-container">
+            <img src="images/6. Home Screen wireframe X1.875.png" alt="Home Screen Wireframe">
+            <img src="images/6.1 Home Screen hifi 1 X2 no notes.png" alt="Home Screen Hifi 1 no notes">
+            <img src="images/6.2. Home Screen hifi 1 X1.875.png" alt="Home Screen Hifi 1">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">AI 101 Screen</h3>
+        <div class="project-media-container">
+            <img src="images/7. AI 101 Screen wireframe2 X1.875.png" alt="AI 101 Screen Wireframe">
+            <img src="images/7.1 AI 101 screen hifi 2 X2 no notes.png" alt="AI 101 Screen Hifi no notes">
+            <img src="images/7.2 AI 101 screen hifi 2 X2.png" alt="AI 101 Screen Hifi">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Resources Screen</h3>
+        <div class="project-media-container">
+            <img src="images/8. Resources Screen wireframe3 X2.png" alt="Resources Screen Wireframe">
+            <img src="images/8.1 Resources Screen hifi 3 X2 no notes.png" alt="Resources Screen Hifi no notes">
+            <img src="images/8.2 Resources Screen hifi 3 X2.png" alt="Resources Screen Hifi">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Conclusion</h3>
+        <p class="lato-text">
+            Designing the UX bootcamp web app from scratch was a rewarding and collaborative experience. As part of a dedicated team comprising a design lead and two designers, I contributed to several screens individually while also engaging in thorough review sessions where we provided constructive feedback to one another. This iterative process enhanced the quality of our work and fostered a strong sense of teamwork. Additionally, our collective efforts in research, including the formulation of usability testing, ensured that we created a user-centered design that effectively meets the needs of our target audience. Overall, this project not only refined my design skills but also highlighted the importance of collaboration and feedback in the UX design process.
+        </p>
+    </div>
+
+</section>
+
+<section id="proj2" class="project-detail">
+    
+    <h2 class="main-project-title">Vitto.Ai</h2>
+
+    <div class="project-block">
+        <h3 class="lato-title">Prototype</h3>
+        <div class="project-media-container">
+            <video controls autoplay loop muted>
+                <source src="images/Vitto- 0. Prototype.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    
+    <div class="project-block">
+        <h3 class="lato-title">My Role</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto-1. my role2.0.png" alt="My Role 1">
+            <img src="images/Vitto-1.2. my role2.0.png" alt="My Role 2">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Problem Solution</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 2. problem-solution.png" alt="Problem Solution">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Affinity Map - Conclusions</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 3. affinity map - conclusions.png" alt="Affinity Map Conclusions">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">User Journey</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 4. user journey.png" alt="User Journey">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Story Board</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 5.1. story board.png" alt="Story Board 1">
+            <img src="images/Vitto- 5.2. story board pt2.1.1.png" alt="Story Board 2">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Wireframes</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 6. Wireframes.png" alt="Wireframes">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">High-fidelity, Profile Info</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto- 7.1 Hige-fidelity, profile Info.png" alt="High-fidelity Profile Info">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Chrome Extension Popup</h3>
+        <div class="project-media-container">
+            <img src="images/Vitto 7.2 Chrome Extension Popup - Dark and Light Mode.png" alt="Chrome Extension Popup">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Conclusion</h3>
+        <p class="lato-text">
+            Working on Vitto.AI was an enriching experience that allowed me to collaborate with a diverse and talented team while deepening my expertise in prototyping, UI design, and brainstorming processes. Throughout the project, I played a key role in designing the Chrome extension popup, profile info screens, and other essential UI elements, ensuring they aligned with user needs and project goals.
+        </p>
+        <br>
+        <p class="lato-text">
+            One of the biggest challenges was managing the complexity of the app, which offered users a wide range of features and customization options. To stay on top of the evolving design, effective teamwork and open communication were essential.
+        </p>
+        <br>
+        <p class="lato-text">
+            This project reinforced my ability to work in a fast-paced, multidisciplinary environment while sharpening my skills in UX/UI design. The insights and hands-on experience I gained will undoubtedly shape my future projects, allowing me to approach complex design challenges with greater confidence and efficiency.
+        </p>
+    </div>
+
+</section>
+
+<section id="proj3" class="project-detail">
+    
+    <h2 class="main-project-title">Great Job</h2>
+
+    <div class="project-block">
+        <h3 class="lato-title">Prototype</h3>
+        <div class="project-media-container">
+            <video controls autoplay loop muted>
+                <source src="images/Great Job 1.- Prototype.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">My Role</h3>
+        <div class="project-media-container">
+            <img src="images/Great Job 2. my role.png" alt="My Role">
+        </div>
+    </div>
+
+    <div class="project-block">
+        <div class="project-media-container">
+            <img src="images/Great Job 3. [no head line].png" alt="Landing Page Header">
+        </div>
+        <br><br>
+        <h3 class="lato-title">Landing Page Typography & Layout Choices</h3>
+        <p class="lato-text">
+            When designing the landing page, I was intentional about maintaining a balanced and cohesive look by ensuring the font size wasn’t overly exaggerated. Instead, I focused on a subtle and refined type hierarchy that enhances readability without overwhelming the user. This delicate approach helps create a more approachable and user-friendly interface.
+        </p>
+        <br>
+        <p class="lato-text">
+            In the Hero Section, while I kept the overall font size consistent, I chose to slightly emphasize the headline to draw attention without breaking the subtle aesthetic established throughout the page. This provides a visual anchor for users as they begin their journey through the page.
+        </p>
+        <br>
+        <p class="lato-text">
+            Regarding text alignment, most of the content is left-aligned, following the F-pattern—a common reading pattern that enhances the user's scanning experience. This decision was rooted in research on user behavior and eye-tracking studies, ensuring that the content flows naturally and is easy to digest, improving overall readability and user engagement.
+        </p>
+    </div>
+
+    <div class="project-block">
+        <div class="project-media-container">
+            <img src="images/Great job 5 [no headline].png" alt="Banner Design">
+        </div>
+        <br><br>
+        <h3 class="lato-title">Banner Design & Animation Decisions</h3>
+        <p class="lato-text">
+            The banner design includes a rightward movement effect, which adds an element of dynamic interaction. While the animation can’t be fully appreciated in a static image, the subtle motion was intentionally designed to catch the user's eye without being distracting. The smooth horizontal motion guides the viewer's attention in a natural way, encouraging exploration of the content.
+        </p>
+        <br>
+        <p class="lato-text">
+            In addition to the animation, I implemented a subtle visual effect to enhance the banner’s aesthetic. This was carefully chosen to add a polished, modern feel without overwhelming the user. The goal was to achieve a refined, professional look while maintaining a lightweight design that complements the rest of the page.
+        </p>
+        <br>
+        <p class="lato-text">
+            This balance between motion and visual styling enhances the overall user experience, making the banner both functional and visually appealing.
+        </p>
+    </div>
+
+    <div class="project-block">
+        <div class="project-media-container">
+            <img src="images/Great job 7. [no headline].png" alt="About Me Section">
+        </div>
+        <br><br>
+        <h3 class="lato-title">“About Me” Section: Layout & Interaction Design</h3>
+        <p class="lato-text">
+            In the "About Me" section, I made a conscious decision to streamline the landing page by placing three images side by side, rather than stacking them vertically. This horizontal layout not only reduced the page’s length, but also created a more visually dynamic experience, allowing users to quickly scan key milestones or content without excessive scrolling.
+        </p>
+        <br>
+        <p class="lato-text">
+            Each image/milestone is housed in its own dedicated column, with clear separation between them to maintain visual clarity and balance. This grid layout enhances readability and ensures each piece of content stands out individually, preventing visual clutter.
+        </p>
+        <br>
+        <p class="lato-text">
+            To encourage user engagement, I placed the call-to-action button centrally, directly beneath the columns. This strategic placement creates a natural flow as users progress through the content, guiding them toward the action I want them to take without interrupting their journey.
+        </p>
+    </div>
+
+    <div class="project-block">
+        <div class="project-media-container">
+            <img src="images/Great job 9. [no headline].png" alt="Iconography">
+        </div>
+        <br><br>
+        <h3 class="lato-title">Iconography & Visual Placement</h3>
+        <p class="lato-text">
+            To represent the concept of donation, I selected an icon featuring two hands holding a heart, a widely recognized symbol for generosity and support. This choice reinforces the emotional connection users associate with charitable actions, adding visual context to the content.
+        </p>
+        <br>
+        <p class="lato-text">
+            The icon is strategically positioned above the text, aligning with the natural eye movement patterns based on the F-pattern. This placement ensures that the user's attention is drawn to the most important elements first, creating a seamless flow from the icon to the supporting text. By guiding the user's eyes in this way, the design enhances readability and reinforces the intended message effectively.
+        </p>
+    </div>
+
+    <div class="project-block">
+        <h3 class="lato-title">Conclusion</h3>
+        <p class="lato-text">
+            This project was an opportunity to craft a visually engaging and user-friendly landing page tailored specifically for a personal trainer’s audience. By focusing on modern typography, dynamic yet subtle animations, and a structured layout, I aimed to create an experience that feels both inviting and professional.
+        </p>
+        <br>
+        <p class="lato-text">
+            The balanced type hierarchy and F-pattern layout improved readability, while the thoughtful placement of imagery and interactive elements ensured a seamless user journey. Every design decision—from the motion-enhanced banner to the horizontally structured “About Me” section—was driven by the goal of enhancing clarity and engagement without overwhelming the user.
+        </p>
+        <br>
+        <p class="lato-text">
+            This project reinforced my approach as a UX/UI designer: designing with purpose, clarity, and user-centric thinking to create meaningful digital experiences.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="logo"><strong>Nadav Gefen</strong> | UI/UX Designer</div>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=n.gefen87@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-btn">Contact me</a>
+    </div>
+</footer>
+
+<button id="backToTop" onclick="scrollToSection('hero')"></button>
+
+<script src="script.js"></script>
+</body>
+</html>
